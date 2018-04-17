@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mj.webrtc12.AudioCall">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="412dp"
+        app:srcCompat="@drawable/profile_icon"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/buttonEndAudioCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom|end"
+        android:layout_marginTop="26dp"
+        android:onClick="endAudioCall"
+        app:backgroundTint="@android:color/background_light"
+        app:srcCompat="@drawable/call_end"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="455dp" />
+
+</RelativeLayout>
